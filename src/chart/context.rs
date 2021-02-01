@@ -423,7 +423,7 @@ impl<'a, DB: DrawingBackend, X: Ranged, Y: Ranged> ChartContext<'a, DB, Cartesia
                         }
                     };
                     let line = PathElement::new(vec![(kx0, ky0), (kx1, ky1)], style.clone());
-                    area.draw(&line)?;
+                    // area.draw(&line)?;
                 }
             }
         }
